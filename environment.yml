@@ -1,0 +1,15 @@
+name: dl
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - matplotlib
+  - seaborn
+  - tqdm
+  - optuna
+  - plotly
+  - jupyter_client[version='<8']
+  - notebook
+  - pyzmq[version='<25']
+prefix: /home/user/miniconda3/envs/dl
